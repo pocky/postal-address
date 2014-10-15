@@ -1,0 +1,36 @@
+{
+    "name": "black/postal-address",
+    "type": "library",
+    "description": "Postal Address library for Black projects",
+    "keywords": ["libary", "black-project", "postal-address"],
+    "homepage": "http://www.lablackroom.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandre 'pocky' Balmes",
+            "email": "alexandre@lablackroom.com",
+            "homepage": "http://www.lablackroom.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Black\\Component\\PostalAddress\\": "src/Black/Component/PostalAddress/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "spec\\": "spec/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "black/common": "~1.0",
+        "black/address": "~1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
