@@ -1,24 +1,22 @@
-Common
-======
+Postal Address
+==============
 
-Page Library for Black Projects.
-
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/eb624518-0c1e-47a6-a91b-73edf2244e2e/big.png)](https://insight.sensiolabs.com/projects/eb624518-0c1e-47a6-a91b-73edf2244e2e)
+Postal Address library for Black projects.
 
 Installation
 ------------
 
-The recommended way to install Page is through [Composer][2]:
+The recommended way to install Postal Address is through [Composer][2]:
 
 ```json
 {
     "require": {
-        "black/page": "@stable"
+        "black/postal-address": "@stable"
     }
 }
 ```
 
-__Protip:__ You should browse the [`black/page`][7] page to choose a stable version to use, avoid the `@stable` meta
+__Protip:__ You should browse the [`black/postal-address`][7] page to choose a stable version to use, avoid the `@stable` meta
 constraint.
 
 Usage
@@ -49,4 +47,4 @@ Alexandre "pocky" Balmes [alexandre@lablackroom.com][4]. Send me [Flattrs][5] if
 [4]: mailto:alexandre@lablackroom.com
 [5]: https://flattr.com/profile/alexandre.balmes
 [6]: http://www.amazon.fr/registry/wishlist/3OR3EENRA5TSK
-[7]: https://packagist.org/packages/black/page
+[7]: https://packagist.org/packages/black/postal-address
